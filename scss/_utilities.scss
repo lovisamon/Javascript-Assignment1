@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.spacer {
+    padding-top: 1.5rem;
+    border-top: 4px solid #B5B9FF;
+}
+
+.btn {
+    background-color: #B5B9FF;
+    border-color: #B5B9FF;
+    border: none;
+}
+
+.d-flex
+{
+    display: flex;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.error {
+    color: red;
+    font-size: 0.8rem;
+    padding: 0.1rem;
+}
+
+.panel, .flip {
+    padding: 0.8rem;
+    text-align: left;
+    font-weight: bold;
+    background-color: lightgray;
+    border: solid 1px white;
+  }
+  
+.panel {
+    font-weight: normal;
+    display: none;
+}
